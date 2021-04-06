@@ -1,0 +1,7 @@
+{
+  "welcomeAppText": "मौसम ऐप में आपका स्वागत है",
+  "welcomeText": "नमस्ते {{name}}. तुम अनदर हो {{city}}",
+  "forecastText": "5 दिन का पूर्वानुमान",
+  "logoutText": "लॉग आउट",
+  "signInText": "Google के साथ साइन इन करें"
+}

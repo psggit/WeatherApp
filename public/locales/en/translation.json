@@ -1,0 +1,7 @@
+{
+  "welcomeAppText": "Welcome to Weather App",
+  "signInText": "Sign in with Google",
+  "welcomeText": "Hello {{name}}. You're in {{city}}",
+  "forecastText": "5 - Day Forecast",
+  "logoutText": "logout"
+}
