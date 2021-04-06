@@ -9,7 +9,7 @@ const fetchForecastAPI = (reqBody) => {
   return (dispatch) => {
     dispatch(fetchingForecastInProgress());
     fetch(
-      `http://api.openweathermap.org/data/2.5/forecast?lat=${reqBody.lat}&lon=${reqBody.lng}&dt=${reqBody.dt}&appid=833ae7cf728331fea1d9fa826a022299`
+      `https://api.openweathermap.org/data/2.5/forecast?lat=${reqBody.lat}&lon=${reqBody.lng}&dt=${reqBody.dt}&appid=833ae7cf728331fea1d9fa826a022299`
     )
       .then((response) => {
         return response.json();
